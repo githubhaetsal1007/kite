@@ -1,0 +1,28 @@
+print('What is your name?')
+name = input() 
+print('Hi ' + name + '!')
+
+## 이름 붙여서 인사하기
+
+a = input()
+print('Hi ' + a)
+
+## 제곱
+
+a = int(input())
+print(a**2)
+
+## 이름
+name = input()
+print('Hello, ' + name + '!')
+
+## 나눗셈
+n = int(input())
+m = int(input())
+print(m // n)
+print(m % n)
+
+## 1 큰 수 1 작은 수 
+n = int(input())
+print('The next number for the number ' + str(n) + ' is ' + str(n + 1) + '.')
+print('The previous number for the number ' + str(n) + ' is ' + str(n - 1) + '.')
